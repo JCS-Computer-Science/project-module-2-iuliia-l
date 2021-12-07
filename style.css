@@ -1,0 +1,48 @@
+/*Color Palette
+#462255
+#313B72
+#62A87C
+#7EE081
+#C3F3C0
+*/
+
+/*----Navigation----*/
+
+body{
+    margin: 25;
+    font-family:'Times New Roman', Times, serif;
+}
+.navbar {
+    overflow: hidden;
+    background-color:rgb(255, 255, 255);
+}
+
+.navbar a {
+    float: left;
+    color: 462255;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:double;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background-color:rgb(172, 238, 172);
+    color:rgb(10, 97, 46);
+}
+
+.navbar a.active {
+    background-color:rgb(206, 240, 206);
+    color: green
+}
+
+/*----Global Style----*/
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    color: aqua;
+}

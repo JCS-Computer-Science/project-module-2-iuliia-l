@@ -75,6 +75,10 @@ body {
     line-height: 1.5;
     text-align: center;
 }
+
+.homepage {
+    font-size: 300px;
+}
 .homepage-img{
     width: 1000px;
 }
@@ -83,8 +87,46 @@ hr.solid{
     border-top: 3px solid rgb(103, 138, 96);
 }
 
-.homepageext-img{
-    width: 50px;
+.home-page-ext img{
+    width: 650px;
+    height: 500px;
+    float: left;
+    padding: 30px;
+}
+
+.home-page2 img{
+    width: 650px;
+    height: 500px;
+    float: right;
+    padding: 30px;
+}
+
+.home-page3 img{
+    width: 650px;
+    height: 500px;
+    float: left;
+    padding: 30px;
+}
+
+.home-page4 img{
+    width: 650px;
+    height: 500px;
+    float: right;
+    padding: 30px;
+}
+
+.home-page5 img{
+    width: 650px;
+    height: 500px;
+    float: left;
+    padding: 30px;
+}
+
+.home-page6 img{
+    width: 650px;
+    height: 500px;
+    float: right;
+    padding: 30px;
 }
 /*----Contact Us----*/
 .contact-page{

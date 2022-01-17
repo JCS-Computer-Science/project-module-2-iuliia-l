@@ -15,6 +15,7 @@ body{
 .navbar {
     overflow: hidden;
     background-color:rgb(255, 255, 255);
+    margin: 30px
 }
 
 .navbar a {
@@ -36,7 +37,29 @@ body{
     color: green
 }
 
+/* Wrapper */
+.wrapper {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
 /*----Global Style----*/
+#left, #right {
+	background: #99c092;
+	position: fixed;
+    border: inherit;
+    border: initial;
+    border: unset;
+    inline-size: min-content;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 100px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+
 html{
     box-sizing: border-box;
 }
@@ -52,6 +75,62 @@ body {
     line-height: 1.5;
     text-align: center;
 }
-img{
+.homepage-img{
     width: 1000px;
 }
+
+hr.solid{
+    border-top: 3px solid rgb(103, 138, 96);
+}
+
+.homepageext-img{
+    width: 50px;
+}
+/*----Contact Us----*/
+.contact-page{
+    background: rgb(141, 182, 100);
+    float: left;
+
+}
+/*----Testimonials----*/
+.test{
+    background-color: rgb(172, 238, 172);
+    float: left;
+}
+.test a{
+    text-indent: 30px;
+}
+/*---- REQUEST INFORMATION ----*/
+.reqinfo {
+    float: left;
+    padding: 50px;
+}
+.request-info {
+    float: left;
+}
+
+.navbar-req{
+    overflow: hidden;
+    background-color:rgb(255, 255, 255);
+    margin: 30px
+}
+
+.navbar-req a {
+    float: center;
+    color: 462255;
+    text-align: center;
+    padding: 20px 40px;
+    text-decoration:double;
+    font-size: 20px;
+}
+
+.navbar-req a:hover{
+    background-color:rgb(172, 238, 172);
+    color:rgb(10, 97, 46);
+}
+
+.navbar-req a.active{
+    background-color:rgb(206, 240, 206);
+    color: green
+}
+

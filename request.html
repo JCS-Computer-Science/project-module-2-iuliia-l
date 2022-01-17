@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Green Thumb Landscaping</title>
+        <link href=""rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+        <script src="backend.js" defer></script>
+    </head>
+    <body>
+        <div id="left"></div>
+        <div id="right"></div>
+            <!---- REQMAIN ---->
+            <div class="wrapper">
+            <header>
+                <div class="reqmain"></div>
+                <h1>Green Thumb Landscaping</h1>
+                <h2>The Root of Green Greatness</h2>
+                <div class="navbar-req">
+                    <a class="active" href="">Home</a>
+                    <a href="reviews.html" >Reviews</a>
+                    <a href="request.html">Request Information</a>
+                    <a href="aboutus.html">About Us</a>
+                    <a href="services.html">Services</a>
+                </div>
+                </header>
+                <main>
+                    <div class="request-info">
+                        <h2>YOUR PROJECT / REQUEST FOR QUOTE</h2>
+                        <h4>Have a landscaping idea but not sure where to start?  You can get a decent idea of cost from our calculator, 
+                            just plug in your needs and generate a base price / estimate.  Be sure to explain your project below in the given location
+                            and someone will get back to you soon! 
+                        </h4>
+                        <h3>RESIDENTIAL SERVICES PRICES</h3>
+                        <h5>Based off an average yard size of 10000 Square Feet, choose what you need done weekly, monthly or just one time!</h5>
+                        
+                    </div>
+                     <!-- REQUEST INFORMATION -->
+                    <div class="reqinfo">
+                        <div id ="app">
+                            <form>
+                                <div v-for="service in services">
+                                    <span style="color:rgb(29, 129, 34);">{{service[0]}}</span>
+                                    <span style="color:rgb(194, 39, 47);">${{service[1]}}</span>
+                                    <span>{{service[2]}}</span>
+                                    <input type="number" v-model="service[3]">
+                                </div>
+                            </form>
+                            <button v-on:click="totalPrice">Calculate</button>
+                            <div v-if="total !=0">
+                                <span>Total: $</span>
+                                <span>{{ total.toFixed(2) }}</span>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+</html>

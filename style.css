@@ -128,10 +128,20 @@ hr.solid{
     float: right;
     padding: 30px;
 }
-/*----Contact Us----*/
-.contact-page{
-    background: rgb(141, 182, 100);
+
+/*----About Us----*/
+
+.main-about-us {
     float: left;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/*----Contact Us----*/
+.contact-add{
+    background-image: url(https://d2l.cbe.ab.ca/content/enforced/898155-jcs2122compsci30fall2021jtwilson/laying_sod.jpg?d2lSessionVal=NcQ7bvLFAmkRur1GgCeiQ0tUp&ou=898155);
+    background-position: bottom;
+    padding-bottom: 50px;
 
 }
 /*----Testimonials----*/
@@ -175,4 +185,12 @@ hr.solid{
     background-color:rgb(206, 240, 206);
     color: green
 }
+
+.prettyflower img{
+    width: 650px;
+    height: 500px;
+    float: right;
+    padding: 30px;
+}
+
 

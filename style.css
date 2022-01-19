@@ -137,12 +137,44 @@ hr.solid{
     font-family:'Times New Roman', Times, serif;
 }
 
+.navbar-about-us{
+    overflow: hidden;
+    background-color:rgb(255, 255, 255);
+    margin: 30px
+}
+
+.navbar-about-us a{
+    float: center;
+    color: 462255;
+    text-align: center;
+    padding: 20px 40px;
+    text-decoration:double;
+    font-size: 20px;
+}
+ .navbar-about-us a.hover{
+    background-color:rgb(172, 238, 172);
+    color:rgb(10, 97, 46);
+ }
+
+ .navbar-about-us a.active{
+    background-color:rgb(206, 240, 206);
+    color: green
+ }
+ 
+
 /*----Contact Us----*/
 .contact-add{
-    background-image: url(https://d2l.cbe.ab.ca/content/enforced/898155-jcs2122compsci30fall2021jtwilson/laying_sod.jpg?d2lSessionVal=NcQ7bvLFAmkRur1GgCeiQ0tUp&ou=898155);
-    background-position: bottom;
+    background: #e0e6e0;
     padding-bottom: 50px;
+    height: 250px;
+    float: left;
+    width: 1100px;
+    padding: 30px;
 
+}
+
+.contact-add2{
+    float: right;
 }
 /*----Testimonials----*/
 .test{
